@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: master-node:5000/justme/myweb:1
+      - image: master-node:5000/hambali/myweb:1
         imagePullPolicy: Always
         name: myweb
 
