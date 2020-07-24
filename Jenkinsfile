@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "master-node:5000/hambali/myweb"
+    registry = "master-node:5000/myweb"
     dockerImage = ""
   }
 
