@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "master-node:5000/justme/myweb"
+    registry = "master-node:5000/hambali/myweb"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/nurhambali/playjenkins.git'
+        git 'https://github.com/nurhambali/kubernet-jenkins.git'
       }
     }
 
