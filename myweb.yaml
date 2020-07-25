@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - image: 10.1.26.4:5000/hambali/myweb:1
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         name: myweb
 
 ---
