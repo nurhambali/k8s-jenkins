@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - image: 10.1.254.4:5000/myweb:1
-        imagePullPolicy: Always
+        imagePullPolicy: Never
         name: myweb
 
 ---
